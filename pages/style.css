@@ -57,7 +57,7 @@ input::placeholder {
 
 /* destinatio-popular  */
 
-/* .destination-div {
+.destination-div {
     padding: 60px 0px;
 }
 
@@ -87,42 +87,23 @@ input::placeholder {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0px 370px 40px;
     text-align: center;
-} */
-
-.popular-list > li:not(:list-child) {margin: 30px;}
-
-.popular-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: var(--radius-25);
-    height: 430px;
 }
 
-.popular-card .card-img {
-    height: 100%;
-}
-
-.popular-card .card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.popular-card .card-content {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    background: var(--white);
-    border-radius: var(--radius-25);
-    padding: 20px;
-}
-
-.popular-card .card-rating {
-    background: var(--bright-navy-blue);
-    color: var(--white);
-    position: absolute;
-    top: 0;
-    right: 25px;
+.image {
     display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.image-1 img{
+    border-radius: 30px;
+}
+
+.image-2 img{
+    border-radius: 30px;
+}
+
+.image-3 img{
+    border-radius: 30px;
 }
